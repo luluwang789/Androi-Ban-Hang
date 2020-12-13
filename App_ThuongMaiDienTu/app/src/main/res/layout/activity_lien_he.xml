@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LienHeActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarlienhe"
+        android:background="@drawable/custom_backgroundtoolbar"
+        app:titleTextColor="@color/colorWhite"
+        app:title="Liên Hệ"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/custom_button_dangky"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <TextView
+            android:drawableLeft="@drawable/people"
+            android:textColor="#050505"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Admin: SPACE TEAM"
+            android:fontFamily="@font/montserrat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/custom_button_dangky"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <Button
+            android:background="#f9f9f9"
+            android:id="@+id/buttoncall"
+            android:drawableLeft="@drawable/cellphone"
+            android:textColor="#050505"
+            android:fontFamily="@font/montserrat"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="SĐT : 0943597722"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/custom_button_dangky"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <Button
+            android:background="@color/colorWhite"
+            android:layout_margin="15dp"
+            android:drawableLeft="@drawable/message"
+            android:textColor="#050505"
+            android:fontFamily="@font/montserrat"
+            android:id="@+id/buttonemail"
+            android:textAllCaps="false"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Email: trananhphuoc0603"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "530996536698",
+    "firebase_url": "https://appthuongmaidientu-ffecd.firebaseio.com",
+    "project_id": "appthuongmaidientu-ffecd",
+    "storage_bucket": "appthuongmaidientu-ffecd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530996536698:android:953a96bc210af35fa5e2c3",
+        "android_client_info": {
+          "package_name": "com.example.trana.cuahangthietbionline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530996536698-9glje1rjvuuj2i10n2r6kia3ipreu1ig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trana.cuahangthietbionline",
+            "certificate_hash": "e5376b1e1e183ec1c4b578dc555ed0111721a196"
+          }
+        },
+        {
+          "client_id": "530996536698-hl0hqgrevvq7ikanilhqqotsmgd2dpr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXuJq1K09HWhICId35K1wPRNhqk0L12Yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530996536698-hl0hqgrevvq7ikanilhqqotsmgd2dpr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

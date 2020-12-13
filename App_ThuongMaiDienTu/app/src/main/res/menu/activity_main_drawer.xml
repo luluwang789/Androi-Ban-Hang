@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Tài khoản">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_my_account"
+                    android:icon="@drawable/ic_person"
+                    android:title="Tài khoản của tôi" />
+                <item
+                    android:id="@+id/nav_my_orders"
+                    android:icon="@drawable/ic_local_grocery_store"
+                    android:title="Giỏ hàng" />
+                <item
+                    android:id="@+id/nav_my_rewrad"
+                    android:icon="@drawable/ic_shopping_basket"
+                    android:title="Sản phẩm đã mua" />
+                <item
+                    android:id="@+id/nav_my_wishlist"
+                    android:icon="@drawable/ic_favorite_white"
+                    android:title="Sản phẩm yêu thích" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Hỗ Trợ">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_email"
+                    android:icon="@drawable/ic_email"
+                    android:title="Email" />
+                <item
+                    android:id="@+id/nav_call"
+                    android:icon="@drawable/ic_phone"
+                    android:title="Điện thoại" />
+                <item
+                    android:id="@+id/nav_location"
+                    android:icon="@drawable/ic_location_on"
+                    android:title="Vị trí" />
+            </group>
+        </menu>
+    </item>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/ic_power_settings"
+                android:title="Đăng Xuất" />
+        </group>
+
+</menu>
